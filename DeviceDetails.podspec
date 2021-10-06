@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'DeviceDetails'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of DeviceDetails.'
+  s.summary          = 'DeviceData Library for get device data'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  'DeviceData is an awesome pod aimed to make your life easier for grt devide data'
                        DESC
 
   s.homepage         = 'https://github.com/sahil4cartoondeveloper/DeviceDetails'
@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'DeviceDetails/Classes/**/*'
-  
+  s.swift_version = '5.4'
   # s.resource_bundles = {
   #   'DeviceDetails' => ['DeviceDetails/Assets/*.png']
   # }
